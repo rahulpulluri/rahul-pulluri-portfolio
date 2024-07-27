@@ -21,7 +21,7 @@ const Hero = () => {
               variants={container(0)}
               initial="hidden"
               animate="visible"
-              className="text-lg text-gray-400 opacity-30 lg:mt-24"
+              className="text-lg text-gray-400 opacity-30 lg:mt-24 tracking-normal"
             >
               Hi, my name is
             </motion.span>
@@ -37,9 +37,9 @@ const Hero = () => {
               variants={container(1)}
               initial="hidden"
               animate="visible"
-              className="my-2 max-w-xl py-6 font-light tracking-tighter"
+              className="my-2 max-w-xl py-6 font-light tracking-normal"
             >
-              I am a <span className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500">Software Developer</span> currently pursuing a Master of Engineering in Computer Science at Virginia Tech, with an expected graduation date in December 2024. Prior to my master's program, I worked as an Associate Software Engineer at Accenture for one year and as a Software Developer Intern at iThink Logistics for six months. I have extensive hands-on experience in Full Stack Development, Data Engineering, and Cloud Computing. I am actively seeking full-time opportunities starting in January 2025.
+              I'm a <span className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500">Software Developer</span> currently pursuing a Master of Engineering in Computer Science at Virginia Tech, with an expected graduation date in December 2024. Prior to my master's program, I worked as an Associate Software Engineer at Accenture for one year and as a Software Developer Intern at iThink Logistics for six months. I have extensive hands-on experience in Full Stack Development, Data Engineering, and Cloud Computing. I am actively seeking full-time opportunities starting in January 2025.
             </motion.p>
           </div>
         </div>
