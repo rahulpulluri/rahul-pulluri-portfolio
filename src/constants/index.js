@@ -15,13 +15,13 @@ export const EDUCATIONS = [
   },
   {
     year: "Oct 2020 - May 2022",
-    degree: "Masters in Computer Applications",
+    degree: "Master of Computer Applications",
     institution: "Hindustan University",
   },
   {
     year: "July 2016 - Sept 2020",
-    degree: "Bachelors of Commerce",
-    institution: "Mumbai University",
+    degree: "Bachelor of Commerce",
+    institution: "University of Mumbai",
   },
 ];
 
