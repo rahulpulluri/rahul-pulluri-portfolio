@@ -31,8 +31,8 @@ export const EXPERIENCES = [
     year: "Sept 2022 - May 2023",
     role: "Associate Software Engineer",
     company: "Accenture",
-    description: `Worked as a full stack developer, developing and maintaining web applications with React.js and Node.js. Implemented REST APIs in a Django and Node.js microservices architecture. Improved data flow and implemented CI/CD pipelines using Jenkins. Configured AWS EC2, VPC, and Internet Gateway for secure, scalable deployments, and set up subnets for enhanced security.`,
-    technologies: ["React.js", "Node.js", "Django", "AWS"],
+    description: `Developed an automated user role management system in Django, reducing manual effort, improving role accuracy, and cutting processing time by five days. Created a dynamic pricing module using RESTful APIs with Java Spring Boot and React, handling $1.5 billion in transactions annually and increasing pricing accuracy by 20%. Built a real-time notification system using WebSockets and Redis, enhancing user engagement and reducing notification delivery time. Implemented AWS Lambda to automate data processing, improving efficiency by 50%.`,
+    technologies: ["Java", "Spring Boot", "Django", "React.js", "Node.js", "WebSockets", "Redis", "AWS"],
   },
   {
     year: "Feb 2022 - Aug 2022",
@@ -50,7 +50,7 @@ export const PROJECTS = [
     image: carpool,
     description:
       "Neighborhood Carpool is a community-focused ride-sharing platform developed for neighborhood commuters. It offers features like carpool listings, user account management, and admin controls for a secure, personalized experience. The platform promotes eco-friendly commuting, reduces traffic congestion, and cuts costs.",
-    technologies: ["HTML", "CSS", "JavaScript", "Django", "PostgreSQL"],
+    technologies: ["HTML", "CSS", "JavaScript", "jQuery", "Ajax", "Django", "PostgreSQL"],
     link: "https://github.com/rahulpulluri/Neighborhood-Carpool-platform",
   },
   {
