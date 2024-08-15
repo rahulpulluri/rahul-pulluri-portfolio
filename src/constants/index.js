@@ -28,6 +28,13 @@ export const EDUCATIONS = [
 
 export const EXPERIENCES = [
   {
+    year: "June 2024 - Aug 2024",
+    role: "Summer Intern (Data)",
+    company: "Virginia Tech",
+    description: `Designed and implemented an AWS-based data pipeline with S3, Glue, and Athena to process and analyze large datasets, reducing processing time by 40% and accelerating insights. Built and optimized ETL workflows in Python, AWS Lambda, and SQL, improving data handling efficiency by 35% across 10+ datasets and enhancing query response times. Volunteered with the Virginia Tech Drone Program, assisting in drone building and inspiring K12 students in STEM.`,
+    technologies: ["Python", "AWS", "PostgreSQL", "PySpark", "Pandas"],
+  },
+  {
     year: "Sept 2022 - May 2023",
     role: "Associate Software Engineer",
     company: "Accenture",
