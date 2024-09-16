@@ -2,6 +2,7 @@ import carpool from "../assets/projects/carpool.jpeg";
 import ecommerce from "../assets/projects/ecommerce.png";
 import plant from "../assets/projects/plant.jpeg";
 import bigdata from "../assets/projects/big data.jpeg";
+import movie from "../assets/projects/movies.png";
 
 export const HERO_CONTENT = `I am a technology professional with experience as an Associate Software Engineer at Accenture and a Software Developer Intern at iThink Logistics. My expertise includes Full Stack Development, Data Engineering, and Cloud Computing. I am currently pursuing a Master of Engineering in Computer Science from Virginia Tech.`;
 
@@ -31,21 +32,23 @@ export const EXPERIENCES = [
     year: "June 2024 - Aug 2024",
     role: "Summer Intern (Data)",
     company: "Virginia Tech",
-    description: `Designed and implemented an AWS-based data pipeline with S3, Glue, and Athena to process and analyze large datasets, reducing processing time by 40% and accelerating insights. Built and optimized ETL workflows in Python, AWS Lambda, and SQL, improving data handling efficiency by 35% across 10+ datasets and enhancing query response times. Volunteered with the Virginia Tech Drone Program, assisting in drone building and inspiring K12 students in STEM.`,
+    description: `Redesigned an AWS-based data pipeline utilizing S3, Glue, and Athena to significantly cut processing time by around 2 hours, thereby enabling quicker insights and enhancing project timelines. Improved ETL workflows with Python, AWS Lambda, and SQL, boosting data handling efficiency by 20% across various datasets and accelerating data access for the team. Volunteered with the Virginia Tech Drone Program, contributing to drone construction and motivating K12 students to explore STEM fields.`,
     technologies: ["Python", "AWS", "PostgreSQL", "PySpark", "Pandas"],
   },
   {
     year: "Sept 2022 - May 2023",
     role: "Associate Software Engineer",
     company: "Accenture",
-    description: `Developed an automated user role management system in Django, reducing manual effort, improving role accuracy, and cutting processing time by five days. Created a dynamic pricing module using RESTful APIs with Java Spring Boot and React, handling $1.5 billion in transactions annually and increasing pricing accuracy by 20%. Built a real-time notification system using WebSockets and Redis, enhancing user engagement and reducing notification delivery time. Implemented AWS Lambda to automate data processing, improving efficiency by 50%.`,
+    description: `Automated the user role management system in Django, which enhanced role assignment accuracy by 30%, minimized manual effort, and saved several days of work. Developed a scalable pricing module using RESTful APIs, Java Spring Boot, and React, enabling precise processing for over 200 product categories and improving transaction reliability for a major client. Created a real-time notification system with WebSockets and Redis, efficiently delivering notifications to approximately 5,000 users daily and reducing delivery time from 2 minutes to under 10 seconds, thus significantly boosting user engagement. Additionally, implemented AWS Lambda functions to automate routine data processing tasks, minimizing manual intervention and streamlining data workflows.`,
     technologies: ["Java", "Spring Boot", "Django", "React.js", "Node.js", "WebSockets", "Redis", "AWS"],
   },
   {
     year: "Feb 2022 - Aug 2022",
     role: "Software Developer Intern",
     company: "iThink Logistics",
-    description: `Developed a real-time tracking system using Apache Kafka, MongoDB, and Elasticsearch for data analytics. Utilized LocalStack for AWS emulation and Socket.IO for dynamic communication. Deployed the system on AWS using EC2, RDS, and Lambda, enhancing scalability and reducing operational costs by 20%.`,
+    description: `Integrated a real-time tracking system using Apache Kafka, MongoDB, and Elasticsearch, optimizing the tracking and logistics process and leading to enhanced operational efficiency.
+
+`,
     technologies: ["Apache Kafka", "Socket.IO", "MongoDB", "AWS"],
   },
 
@@ -67,6 +70,14 @@ export const PROJECTS = [
       "Developed a microservices application with services for User Authentication, Ticket Creation, Order Creation, Payment, and Timed Expiration. Users can list and purchase event tickets. When a user attempts to purchase a ticket, it is 'locked' for 15 minutes to allow payment processing. If the payment is not completed within this time, the ticket unlocks. Ticket prices can be edited if they are not locked.",
     technologies: ["React.js", "FastAPI", "Node.js", "Express.js", "MongoDB", "Redis", "Docker", "Kubernetes",],
     link: "https://github.com/rahulpulluri/E-Commerce-Website",
+  },
+  {
+    title: "Movie Streaming Platform",
+    image: movie,
+    description:
+      "Built a Netflix-like streaming platform with features including secure user authentication via JWT, movie and TV show browsing, search functionality, and watch history tracking. The platform supports protected routes with middleware, has a responsive design for desktop and mobile, and includes custom error handling. The project uses React.js and Tailwind CSS on the frontend, Node.js and Express.js on the backend, MongoDB for the database, and JWT for authentication.",
+    technologies: ["React.js", "Tailwind CSS", "Node.js", "Express.js", "MongoDB", "JWT"],
+    link: "https://github.com/rahulpulluri/Movie-Streaming-Platform",
   },
   {
     title: "Plant Disease Classification",
