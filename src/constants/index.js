@@ -30,26 +30,27 @@ export const EDUCATIONS = [
 export const EXPERIENCES = [
   {
     year: "June 2024 - Aug 2024",
-    role: "Summer Intern (Data)",
+    role: "Summer Intern",
     company: "Virginia Tech",
-    description: `Redesigned an AWS-based data pipeline utilizing S3, Glue, and Athena to significantly cut processing time by around 2 hours, thereby enabling quicker insights and enhancing project timelines. Improved ETL workflows with Python, AWS Lambda, and SQL, boosting data handling efficiency by 20% across various datasets and accelerating data access for the team. Volunteered with the Virginia Tech Drone Program, contributing to drone construction and motivating K12 students to explore STEM fields.`,
-    technologies: ["Python", "AWS", "PostgreSQL", "PySpark", "Pandas"],
+    description: `Developed a full-stack event coordination platform centralizing all Virginia Tech events, utilizing Golang for the back-end CRUD API and React for the front-end. Optimized back-end performance by implementing structs and slices for lightweight data management, significantly reducing system overhead and improving response times. Enhanced API reliability through error logging, content type handling, and validation, ensuring seamless interaction between the front-end and back-end components of the application.`,
+    technologies: ["React.js", "Go", "CRUD API", "PostgreSQL"],
   },
   {
     year: "Sept 2022 - May 2023",
     role: "Associate Software Engineer",
     company: "Accenture",
-    description: `Automated the user role management system in Django, which enhanced role assignment accuracy by 30%, minimized manual effort, and saved several days of work. Developed a scalable pricing module using RESTful APIs, Java Spring Boot, and React, enabling precise processing for over 200 product categories and improving transaction reliability for a major client. Created a real-time notification system with WebSockets and Redis, efficiently delivering notifications to approximately 5,000 users daily and reducing delivery time from 2 minutes to under 10 seconds, thus significantly boosting user engagement. Additionally, implemented AWS Lambda functions to automate routine data processing tasks, minimizing manual intervention and streamlining data workflows.`,
-    technologies: ["Java", "Spring Boot", "Django", "React.js", "Node.js", "WebSockets", "Redis", "AWS"],
+    description: `Automated user role management using Node.js and a microservices architecture, enhancing reliability and scalability with Docker and Kubernetes. This implementation improved efficiency, increased role assignment accuracy by 30%, and reduced manual intervention. Developed a scalable pricing module utilizing Java Spring Boot, RESTful APIs, and React, efficiently handling transactional data with MySQL for over 200 product categories. Built a real-time notification system using WebSockets and Redis, delivering notifications to approximately 5,000 users daily and reducing delivery time from 2 minutes to under 10 seconds, significantly enhancing user engagement. Implemented AWS Lambda functions to automate routine data processing tasks, streamlining workflows and reducing manual intervention.`,
+    technologies: ["Java", "Spring Boot", "Node.js", "Django", "React.js", "Node.js", "MySQL", "WebSockets", "Redis", "AWS"],
   },
   {
     year: "Feb 2022 - Aug 2022",
     role: "Software Developer Intern",
     company: "iThink Logistics",
-    description: `Integrated a real-time tracking system using Apache Kafka, MongoDB, and Elasticsearch, optimizing the tracking and logistics process and leading to enhanced operational efficiency.
+    description: `Developed a React Native app with user registration, OTP verification, real-time tracking, and push notifications to
+enhance user engagement and streamline logistics operations.
 
 `,
-    technologies: ["Apache Kafka", "Socket.IO", "MongoDB", "AWS"],
+    technologies: ["React Native", "Node.js", "MongoDB"],
   },
 
 ];
