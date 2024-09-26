@@ -32,8 +32,8 @@ export const EXPERIENCES = [
     year: "June 2024 - Aug 2024",
     role: "Summer Intern",
     company: "Virginia Tech",
-    description: `Developed a full-stack event coordination platform centralizing all Virginia Tech events, utilizing Golang for the back-end CRUD API and React for the front-end. Optimized back-end performance by implementing structs and slices for lightweight data management, significantly reducing system overhead and improving response times. Enhanced API reliability through error logging, content type handling, and validation, ensuring seamless interaction between the front-end and back-end components of the application.`,
-    technologies: ["React.js", "Go", "CRUD API", "PostgreSQL"],
+    description: `Developed a full-stack event coordination platform that centralized all Virginia Tech events, employing Golang for the back-end CRUD API and React for the front-end. Enhanced back-end performance by implementing structs and slices for lightweight data management, which significantly reduced system overhead and improved response times. Improved API reliability through effective error logging, content type handling, and validation, ensuring seamless interaction between the front-end and back-end components of the application. Additionally, optimized a data pipeline with Python, AWS Lambda, and SQL, boosting data handling efficiency and accelerating data access by 20% across various datasets.`,
+    technologies: ["React.js", "Go", "Python", "CRUD API", "AWS Lambda", "SQL", "PostgreSQL"],
   },
   {
     year: "Sept 2022 - May 2023",
