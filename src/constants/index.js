@@ -47,10 +47,10 @@ export const EXPERIENCES = [
     role: "Software Developer Intern",
     company: "iThink Logistics",
     description: `Developed a React Native app with user registration, OTP verification, real-time tracking, and push notifications to
-enhance user engagement and streamline logistics operations.
+enhance user engagement and streamline logistics operations. Collaborated with the DevOps team to implement CI/CD pipelines, improving deployment reliability in a cloud-based environment. Integrated a real-time tracking system using Apache Kafka, MongoDB, and Elasticsearch to optimize the tracking and logistics process, leading to enhanced operational efficiency.
 
 `,
-    technologies: ["React Native", "Node.js", "MongoDB"],
+    technologies: ["React Native", "Node.js", "MongoDB", "Jenkins", "Apache Kafka", "Elasticsearch"],
   },
 
 ];
@@ -65,7 +65,7 @@ export const PROJECTS = [
     link: "https://github.com/rahulpulluri/Neighborhood-Carpool-platform",
   },
   {
-    title: "E-Commerce Website",
+    title: "QuickCart",
     image: ecommerce,
     description:
       "Developed a microservices application with services for User Authentication, Ticket Creation, Order Creation, Payment, and Timed Expiration. Users can list and purchase event tickets. When a user attempts to purchase a ticket, it is 'locked' for 15 minutes to allow payment processing. If the payment is not completed within this time, the ticket unlocks. Ticket prices can be edited if they are not locked.",
