@@ -99,7 +99,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "2251 Pimmit Dr, Falls Church, VA 22043 ",
+  // address: "2251 Pimmit Dr, Falls Church, VA 22043 ",
   // phoneNo: "+12 4555 666 00 ",
-  email: "prahul@vt.edu",
+  email: "rahulpulluri1@gmail.com",
 };

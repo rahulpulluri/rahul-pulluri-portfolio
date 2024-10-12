@@ -16,7 +16,7 @@ const Navbar = () => {
         <a href="https://github.com/rahulpulluri?tab=repositories" target="_blank" rel="noopener noreferrer">
           <FaGithub />
         </a>
-        <a href="mailto:prahul@vt.edu">
+        <a href="mailto:rahulpulluri1@gmail.com">
           <FaEnvelope />
         </a>
       </div>
