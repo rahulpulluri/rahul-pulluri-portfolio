@@ -30,7 +30,7 @@ export const EDUCATIONS = [
 
 export const EXPERIENCES = [
   {
-    year: "June 2024 - Present",
+    year: "Jan 2024 - Present",
     role: "Research Assistant",
     company: "Virginia Tech",
     description: `Developing a geospatial information visualization platform with Django and React, integrating INRX traffic data through GeoServer and OpenLayers for enhanced location display. Optimizing the data pipeline with Python, AWS Lambda, and SQL, improving data handling efficiency and increasing data access speed by 20% across various datasets.`,
