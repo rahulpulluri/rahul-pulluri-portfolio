@@ -1,9 +1,8 @@
 import { RiReactjsLine } from "react-icons/ri";
-import { SiMongodb, SiPython, SiDjango, SiFlask, SiMysql, SiAmazonaws, SiApachespark, SiDocker, SiKubernetes, SiJavascript, SiTypescript, SiHtml5, SiCss3, SiTensorflow, SiJenkins, SiNumpy } from "react-icons/si";
+import { SiMongodb, SiPython, SiDjango, SiFlask, SiMysql, SiAmazonaws, SiApachespark, SiDocker, SiKubernetes, SiJavascript, SiTypescript, SiHtml5, SiCss3, SiTensorflow, SiNumpy, SiSpring } from "react-icons/si";
 import { FaNodeJs, FaGitAlt } from "react-icons/fa";
 import { BiLogoPostgresql } from "react-icons/bi";
 import { DiJava, DiGo } from "react-icons/di";
-// import { TbBrandPandas } from "react-icons/tb"; // pandas icon
 import { motion } from "framer-motion";
 
 const iconVarients =(duration) => ({
@@ -33,6 +32,8 @@ const Technologies = () => {
         initial={{ opacity: 0, x: -100 }}
         transition={{ duration: 1.5 }}
         className="flex flex-wrap items-center justify-center gap-4">
+            {/* Icons for various technologies */}
+
             <motion.div 
             variants={iconVarients(4.5)}
             initial="initial"
@@ -48,7 +49,7 @@ const Technologies = () => {
             className="rounded-2xl border-4 border-neutral-800 p-4">
                 <SiPython className="text-7xl text-yellow-400"/>
             </motion.div>
-            
+
             <motion.div 
             variants={iconVarients(5)}
             initial="initial"
@@ -96,7 +97,6 @@ const Technologies = () => {
             className="rounded-2xl border-4 border-neutral-800 p-4">
                 <SiMongodb className="text-7xl text-green-500"/>
             </motion.div>
-            
             
             <motion.div 
             variants={iconVarients(4)}
@@ -167,7 +167,7 @@ const Technologies = () => {
             initial="initial"
             animate="animate"
             className="rounded-2xl border-4 border-neutral-800 p-4">
-                <SiJenkins className="text-7xl text-red-500"/>
+                <SiSpring className="text-7xl text-green-500"/> {/* Spring Boot Icon */}
             </motion.div>
             
             <motion.div 
